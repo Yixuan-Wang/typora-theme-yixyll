@@ -1,0 +1,6 @@
+@import 'yixyll/yixyll.css';
+
+:root {
+    --font-body: var(--font-sans);
+    --font-title: var(--font-serif);
+}

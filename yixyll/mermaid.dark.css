@@ -1,0 +1,8 @@
+:root {
+  --mermaid-theme: night;
+  --node-fill: #fafafa;
+}
+
+[lang='mermaid'] .label {
+  color: #333;
+}

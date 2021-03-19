@@ -1,0 +1,106 @@
+/* https://github.com/forsigner/codemirror-one-light-theme/blob/master/one-light.css */
+
+
+/* basic syntax */
+.cm-s-inner .cm-header {
+  color: #e06c75;
+}
+.cm-s-inner .cm-quote {
+  color: #9d9d9f;
+  font-style: italic;
+}
+.cm-s-inner .cm-negative {
+  color: #e06c75;
+}
+.cm-s-inner .cm-positive {
+  color: #e06c75;
+}
+.cm-s-inner .cm-strong {
+  color: #e45649;
+  font-weight: bold;
+}
+.cm-s-inner .cm-header .cm-strong {
+  color: #e45649;
+  font-weight: bold;
+}
+.cm-s-inner .cm-em {
+  color: #c678dd;
+  font-style: italic;
+}
+.cm-s-inner .cm-header .cm-em {
+  color: #c678dd;
+  font-style: italic;
+}
+.cm-s-inner .cm-tag {
+  color: #e45649;
+}
+.cm-s-inner .cm-attribute {
+  color: #986801;
+}
+.cm-s-inner .cm-link {
+  color: #50a14f;
+  border-bottom: solid 1px #50a14f;
+}
+.cm-s-inner .cm-builtin {
+  color: #e06c75;
+}
+.cm-s-inner .cm-keyword {
+  color: #0184bc;
+}
+.cm-s-inner .cm-def {
+  color: #e45649;
+}
+.cm-s-inner .cm-atom {
+  color: #0184bc;
+}
+.cm-s-inner .cm-number {
+  color: #986801;
+}
+.cm-s-inner .cm-property {
+  color: #383a42;
+}
+.cm-s-inner .cm-qualifier {
+  color: #e45649;
+}
+.cm-s-inner .cm-variable {
+  color: #e06c75;
+}
+.cm-s-inner .cm-string {
+  color: #50a14f;
+}
+.cm-s-inner .cm-punctuation {
+  color: #383a42;
+}
+.cm-s-inner .cm-operator {
+  color: #383a42;
+}
+.cm-s-inner .cm-meta {
+  color: #808080;
+}
+.cm-s-inner .cm-bracket {
+  color: #383a42;
+}
+.cm-s-inner .cm-comment {
+  color: #9d9d9f;
+  font-style: italic;
+}
+.cm-s-inner .cm-error {
+  color: #e06c75;
+}
+/* css syntax corrections */
+.cm-s-inner .cm-m-css.cm-variable {
+  color: #828997;
+}
+.cm-s-inner .cm-m-css.cm-property {
+  color: #383a42;
+}
+.cm-s-inner .cm-m-css.cm-atom {
+  color: #0184bc;
+}
+.cm-s-inner .cm-m-css.cm-builtin {
+  color: #56b6c2;
+}
+/* lua syntax corrections */
+.cm-s-inner .cm-m-lua.cm-variable {
+  color: #56b6c2;
+}
