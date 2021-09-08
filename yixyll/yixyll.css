@@ -20,6 +20,11 @@
     /* non-standard */
     --dim-text-color: #555;
   }
+
+  ::selection {
+    background-color: #333;
+    color: #fafafa;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +40,11 @@
 
   .typora-sourceview-on #toggle-sourceview-btn {
     background-color: #666;
+  }
+
+  ::selection {
+    background-color: #dcdcdc;
+    color: #333;
   }
 }
 
