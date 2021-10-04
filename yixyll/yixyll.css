@@ -52,6 +52,7 @@
   --side-bar-bg-color: var(--bg-color);
   --item-hover-bg-color: var(--bg-color);
   --active-file-bg-color: var(--bg-color);
+  --rawblock-edit-panel-bd: var(--bg-color);
   --active-file-text-color: var(--text-color);
   --item-hover-text-color: var(--text-color);
 
