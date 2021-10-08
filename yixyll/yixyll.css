@@ -6,53 +6,10 @@
  * MIT license
  */
 
-@import "codeblock.light.css" (prefers-color-scheme: light);
-@import "mermaid.dark.css" (prefers-color-scheme: dark);
-@import "codeblock.dark.css" (prefers-color-scheme: dark);
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --text-color: #333;
-    --bg-color: #fafafa;
-    --md-char-color: #777;
-    --meta-content-color: #5b808d;
-
-    /* non-standard */
-    --dim-text-color: #555;
-  }
-
-  ::selection {
-    background-color: #333;
-    color: #fafafa;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: #dcdcdc;
-    --bg-color:  #333;
-    --md-char-color: #999;
-    --meta-content-color: #9bb1b9;
-
-    /* non-standard */
-    --dim-text-color: #BBB;
-  }
-
-  .typora-sourceview-on #toggle-sourceview-btn {
-    background-color: #666;
-  }
-
-  ::selection {
-    background-color: #dcdcdc;
-    color: #333;
-  }
-}
-
 :root {
   --side-bar-bg-color: var(--bg-color);
   --item-hover-bg-color: var(--bg-color);
   --active-file-bg-color: var(--bg-color);
-  --rawblock-edit-panel-bd: var(--bg-color);
   --active-file-text-color: var(--text-color);
   --item-hover-text-color: var(--text-color);
 

@@ -1,0 +1,24 @@
+@import "mermaid.dark.css";
+@import "codeblock.dark.css";
+@import "yixyll.css";
+
+:root {
+  --text-color: #dcdcdc;
+  --bg-color:  #333;
+  --md-char-color: #999;
+  --meta-content-color: #9bb1b9;
+  
+  --rawblock-edit-panel-bd: #454647;
+
+  /* non-standard */
+  --dim-text-color: #BBB;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background-color: #666;
+}
+
+::selection {
+  background-color: #dcdcdc;
+  color: #333;
+}

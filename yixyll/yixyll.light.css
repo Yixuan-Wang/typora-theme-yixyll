@@ -1,0 +1,17 @@
+@import "codeblock.light.css";
+@import "yixyll.css";
+
+:root {
+  --text-color: #333;
+  --bg-color: #fafafa;
+  --md-char-color: #777;
+  --meta-content-color: #5b808d;
+
+  /* non-standard */
+  --dim-text-color: #555;
+}
+
+::selection {
+  background-color: #333;
+  color: #fafafa;
+}
