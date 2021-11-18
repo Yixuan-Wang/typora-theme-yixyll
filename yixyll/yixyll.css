@@ -15,7 +15,7 @@
 
   --font-sans: "Noto Sans", "Noto Sans CJK SC", sans-serif;
   --font-serif: "Noto Serif", "Noto Serif CJK SC", serif;
-  --font-mono: "Fira Code", "Sarasa Term SC", monospace;
+  --font-mono: "JetBrains Mono", "Sarasa Term SC", monospace;
 }
 
 body {
